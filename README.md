@@ -6,7 +6,8 @@ write a small message to describe what tic tac toe is
 
 This is how i approached the problem
 
-##Cool tech used
+## Cool tech used
+
 images 
 custom fonts
 added sound
