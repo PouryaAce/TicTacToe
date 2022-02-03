@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+body {
+  max-height: 821px;
+}
 .boxes {
   width: 150px;
   height: 90px;
@@ -44,7 +47,7 @@ h1 {
 }
 .reset {
   width: 953px;
-  height: 45px;
+  height: 40px;
   background-color: rgba(245, 56, 56, 0.7);
   display: flex;
   justify-content: center;
@@ -58,9 +61,9 @@ h1 {
 .winner-kratos {
   display: flex;
   justify-content: space-around;
-  font-size: 70px;
+  font-size: 60px;
   padding: 15px;
-  margin-top: 100px;
+  margin-top: 50px;
   font-family: "Times New Roman", Times, serif;
 }
 .vs {
@@ -82,11 +85,19 @@ h1 {
   justify-content: space-around;
 }
 .draw {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 20px;
   color: rgb(230, 200, 200, 0.5);
-  margin-top: 10px;
+  margin-top: 0px;
   font-family: "Times New Roman", Times, serif;
+  padding-top: 70px;
+}
+.scoreboard {
+  font-size: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Bona Nova", serif;
+  color: rgb(230, 200, 200, 0.7);
 }
 @media only screen and (max-width: 953px) {
   .container {

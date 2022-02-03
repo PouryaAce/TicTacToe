@@ -10,13 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <audio
-      autoplay="autoplay"
-      src="./1-god-of-war-god-of-war-ost.mp3"
-      loop="loop"
-    ></audio>
     <header></header>
     <main>
       <div class="background">
@@ -42,6 +41,11 @@
           <span class="draw"></span>
           <span class="display-win-zeus">ZEU☇S</span>
         </aside>
+        <section class="scoreboard">
+          <span class="score-kratos">0</span>
+          <span class="score-kk"></span>
+          <span class="score-zeus">0</span>
+        </section>
         <section class="vs">
           <span class="vs-1">VS</span>
         </section>
@@ -50,6 +54,12 @@
         </section>
         <button class="reset">reset</button>
       </div>
+      <audio
+        autoplay="autoplay"
+        id="my-audio"
+        src="./1-god-of-war-god-of-war-ost.mp3"
+        loop="loop"
+      ></audio>
     </main>
     <script src="main.js"></script>
   </body>

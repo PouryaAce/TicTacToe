@@ -16,6 +16,8 @@ var winnerDisplay1 = document.querySelector(".winner-kratos-left");
 var winnerDisplay2 = document.querySelector(".winner-zeus-right");
 var section = document.querySelector(".container");
 var draw = document.querySelector(".draw");
+var kratosScore = document.querySelector(".score-kratos");
+var zeusScore = document.querySelector(".score-zeus");
 function xOMaker(event) {
   var boxClicked = event.target;
   if (boxClicked.tagName === "DIV") {
@@ -31,6 +33,8 @@ function xOMaker(event) {
       ) {
         winnerDisplay2.textContent = "WINS";
         win = true;
+
+        console.log(zeusScoreBoard);
         section.removeEventListener("click", xOMaker);
       } else if (
         boxTxt4.textContent == "☇" &&
@@ -38,6 +42,7 @@ function xOMaker(event) {
         boxTxt6.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -46,6 +51,7 @@ function xOMaker(event) {
         boxTxt9.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -54,6 +60,7 @@ function xOMaker(event) {
         boxTxt9.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+        zeusScoreBoard = zeusScoreBoard + 1;
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -62,6 +69,7 @@ function xOMaker(event) {
         boxTxt7.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -70,6 +78,7 @@ function xOMaker(event) {
         boxTxt7.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -78,6 +87,7 @@ function xOMaker(event) {
         boxTxt8.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       } else if (
@@ -86,18 +96,17 @@ function xOMaker(event) {
         boxTxt9.textContent == "☇"
       ) {
         winnerDisplay2.textContent = "WINS";
+
         win = true;
         section.removeEventListener("click", xOMaker);
       }
       if (numClicked == 9 && win == false) {
         draw.textContent = "DRAW";
-        console.log(numClicked + "X");
       }
     } else if (boxClicked.textContent === "") {
       boxClicked.textContent = "Ω";
       numClicked = numClicked + 1;
       disPlay.textContent = "ZEU☇S";
-      console.log("o" + numClicked);
     }
   }
   if (
@@ -174,5 +183,24 @@ section.addEventListener("click", xOMaker);
 
 var button = document.querySelector(".reset");
 button.addEventListener("click", function () {
-  window.location.reload();
+  if (winnerDisplay2.textContent === "WINS") {
+    zeusScore.textContent = Number(zeusScore.textContent) + 1;
+  } else if (winnerDisplay1.textContent == "WINS") {
+    kratosScore.textContent = Number(kratosScore.textContent) + 1;
+  }
+  boxTxt1.textContent = "";
+  boxTxt2.textContent = "";
+  boxTxt3.textContent = "";
+  boxTxt4.textContent = "";
+  boxTxt5.textContent = "";
+  boxTxt6.textContent = "";
+  boxTxt7.textContent = "";
+  boxTxt8.textContent = "";
+  boxTxt9.textContent = "";
+  winnerDisplay1.textContent = "";
+  winnerDisplay2.textContent = "";
+  draw.textContent = "";
+  numClicked = 0;
+  win = false;
+  section.addEventListener("click", xOMaker);
 });
