@@ -1,3 +1,4 @@
+document.querySelector(".reset").click();
 var boxTxt1 = document.querySelector("#box-1");
 var boxTxt2 = document.querySelector("#box-2");
 var boxTxt3 = document.querySelector("#box-3");
