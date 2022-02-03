@@ -1,17 +1,95 @@
-.box {
-  width: 50px;
-  height: 50px;
+* {
+  margin: 0;
+}
+.boxes {
+  width: 150px;
+  height: 90px;
   border: 1px solid black;
+  text-align: center;
+  font-size: 70px;
+  color: rgb(230, 200, 200, 0.5);
 }
 .container {
+  width: 100%;
   display: grid;
-  grid-template-columns: 15% 15% 20%;
-  grid-template-rows: 25% 25%;
-
-  max-width: 300px;
+  grid-template-columns: 15% 15% 11%;
+  grid-template-rows: 25% 25% 20;
+  justify-content: center;
+  /* max-width: 300px; */
   gap: 10px;
   margin: 0 auto;
 }
-main {
-  width: 1280px;
+/* body {
+  background-image: url(./god-of-war-ps4-2018.jpeg);
+} */
+h1 {
+  font-family: "MedievalSharp", cursive;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+
+  color: rgb(230, 200, 200, 0.5);
+}
+.background {
+  background-image: url(./god-of-war-ps4-2018.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.player-turn {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: px;
+  color: rgb(230, 200, 200, 0.5);
+}
+.reset {
+  width: 1000px;
+  height: 45px;
+  background-color: rgba(245, 56, 56, 0.7);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+.winner-kratos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 70px;
+  padding: 15px;
+  margin-top: 100px;
+}
+.vs {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  /* padding-top: 15px; */
+}
+.vs-1 {
+  letter-spacing: 10px;
+  margin-left: 15px;
+  color: rgba(255, 64, 64, 0.8);
+}
+.win-left {
+  font-size: 50px;
+  color: rgb(230, 200, 200, 0.7);
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.winner-kratos-left {
+  /* margin-left: 250px; */
+}
+.winner-zeus-right {
+  /* float: right; */
+}
+.draw {
+  font-size: 4rem;
+  letter-spacing: 20px;
+  color: rgb(230, 200, 200, 0.5);
+  margin-top: 10px;
 }
