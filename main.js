@@ -99,74 +99,74 @@ function xOMaker(event) {
       disPlay.textContent = "ZEU☇S";
       console.log("o" + numClicked);
     }
-    if (numClicked == 9 && win == false) {
-      draw.textContent = "DRAW";
-    }
-    if (
-      boxTxt1.textContent == "Ω" &&
-      boxTxt2.textContent == "Ω" &&
-      boxTxt3.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt4.textContent == "Ω" &&
-      boxTxt5.textContent == "Ω" &&
-      boxTxt6.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt7.textContent == "Ω" &&
-      boxTxt8.textContent == "Ω" &&
-      boxTxt9.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt1.textContent == "Ω" &&
-      boxTxt5.textContent == "Ω" &&
-      boxTxt9.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt3.textContent == "Ω" &&
-      boxTxt5.textContent == "Ω" &&
-      boxTxt7.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt1.textContent == "Ω" &&
-      boxTxt4.textContent == "Ω" &&
-      boxTxt7.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt2.textContent == "Ω" &&
-      boxTxt5.textContent == "Ω" &&
-      boxTxt8.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    } else if (
-      boxTxt3.textContent == "Ω" &&
-      boxTxt6.textContent == "Ω" &&
-      boxTxt9.textContent == "Ω"
-    ) {
-      winnerDisplay1.textContent = "WINS";
-      win = true;
-      section.removeEventListener("click", xOMaker);
-    }
+  }
+  if (
+    boxTxt1.textContent == "Ω" &&
+    boxTxt2.textContent == "Ω" &&
+    boxTxt3.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt4.textContent == "Ω" &&
+    boxTxt5.textContent == "Ω" &&
+    boxTxt6.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt7.textContent == "Ω" &&
+    boxTxt8.textContent == "Ω" &&
+    boxTxt9.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt1.textContent == "Ω" &&
+    boxTxt5.textContent == "Ω" &&
+    boxTxt9.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt3.textContent == "Ω" &&
+    boxTxt5.textContent == "Ω" &&
+    boxTxt7.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt1.textContent == "Ω" &&
+    boxTxt4.textContent == "Ω" &&
+    boxTxt7.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt2.textContent == "Ω" &&
+    boxTxt5.textContent == "Ω" &&
+    boxTxt8.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  } else if (
+    boxTxt3.textContent == "Ω" &&
+    boxTxt6.textContent == "Ω" &&
+    boxTxt9.textContent == "Ω"
+  ) {
+    winnerDisplay1.textContent = "WINS";
+    win = true;
+    section.removeEventListener("click", xOMaker);
+  }
+  if (numClicked == 9 && win == false) {
+    draw.textContent = "DRAW";
   }
 }
 
