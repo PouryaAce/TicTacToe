@@ -1,8 +1,8 @@
 
-# Play it here
+# [Play it here ](https://pouryaace.github.io/TicTacToe/)
 
 
-https://pouryaace.github.io/TicTacToe/
+
 
 # Tic Tac Toe
 
