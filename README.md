@@ -1,7 +1,7 @@
  
  # Tic Tac Toe
  
- [Play it here ](https://pouryaace.github.io/TicTacToe/)
+ ## [Play it here ](https://pouryaace.github.io/TicTacToe/)
 
 
 tic tac toe is a game that plays between two players theres total of nine boxes and each player get to pick a box , when a player have 3 boxes in a row 
