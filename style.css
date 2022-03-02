@@ -10,7 +10,11 @@ body {
   border: 5px double black;
   text-align: center;
   font-size: 70px;
-  color: rgb(230, 200, 200, 0.5);
+  color: rgb(230, 200, 200, 0.7);
+  box-shadow: 5px 5px black;
+}
+.boxes:hover {
+  box-shadow: 7px 5px 5px black;
 }
 .container {
   width: 100%;
@@ -29,7 +33,7 @@ h1 {
   display: flex;
   justify-content: center;
 
-  color: rgb(230, 200, 200, 0.5);
+  color: rgb(230, 200, 200, 0.7);
 }
 .background {
   background-image: url(./god-of-war-ps4-2018.jpeg);
@@ -42,7 +46,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: px;
-  color: rgb(230, 200, 200, 0.5);
+  color: rgb(230, 200, 200, 0.7);
   font-family: "Times New Roman", Times, serif;
 }
 .reset {
@@ -88,7 +92,7 @@ h1 {
 .draw {
   font-size: 3rem;
   letter-spacing: 20px;
-  color: rgb(230, 200, 200, 0.5);
+  color: rgb(230, 200, 200, 0.7);
   margin-top: 0px;
   font-family: "Times New Roman", Times, serif;
   padding-top: 70px;
@@ -130,7 +134,6 @@ h1 {
     justify-content: space-around;
     font-size: 50px;
     padding: 15px;
-    margin-top: 100px;
     align-items: center;
   }
   .player-turn {
@@ -138,12 +141,12 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: px;
-    color: rgb(230, 200, 200, 0.5);
+    color: rgb(230, 200, 200, 0.7);
   }
   .draw {
     font-size: 3rem;
     letter-spacing: 15px;
-    color: rgb(230, 200, 200, 0.5);
+    color: rgb(230, 200, 200, 0.7);
     margin-top: 10px;
   }
 }
@@ -154,10 +157,7 @@ h1 {
 }
 @media only screen and (max-width: 480px) {
   .background {
-    background-image: url(./god-of-war-ps4-2018.jpeg);
-    /* background-size: 750px; */
-    background-repeat: repeat-y;
-    height: 100v;
+    background-image: url(./god3.jpeg);
   }
   .container {
     width: 30%;
@@ -166,20 +166,23 @@ h1 {
   .reset {
     width: 200px;
     letter-spacing: 5px;
+    color: black;
   }
   .boxes {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border: 5px double black;
     text-align: center;
-    font-size: 40px;
-    color: rgb(230, 200, 200, 0.5);
+    font-size: 60px;
+    color: rgb(230, 200, 200, 0.7);
+    box-shadow: 5px 5px black;
   }
   .winner-kratos {
     display: flex;
     justify-content: space-around;
     font-size: 30px;
     margin-top: 0;
+    padding: 0;
 
     align-items: center;
   }
@@ -196,32 +199,9 @@ h1 {
   }
   .draw {
     font-size: 30px;
+    padding: 0;
   }
   h1 {
     font-size: 30px;
-  }
-}
-@media only screen and (max-width: 340px) {
-  main {
-    background-image: url(./god-of-war-ps4-2018.jpeg);
-  }
-
-  .winner-kratos {
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
-    padding: 15px;
-    margin-top: 20px;
-    align-items: center;
-  }
-  .reset {
-    letter-spacing: 0px;
-  }
-  .player-turn {
-    font-size: 25px;
-    padding-bottom: 20px;
-  }
-  .reset {
-    width: 250px;
   }
 }
