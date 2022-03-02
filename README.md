@@ -1,6 +1,8 @@
  
  # Tic Tac Toe
  
+ god of war video game inpired Tic Tac Toe game.
+ 
  ## [Play it here ](https://pouryaace.github.io/TicTacToe/)
 
 
@@ -10,14 +12,18 @@ they win.
 
 ## Approach to problm (planning)
 
-first wee need to make grid template with 3 rows and columns,
-then target each box individually that when click happens it appears X or O
-give each X and O on time to run each time
-if we have 3 similair items each row X or O wins
+game is built by grid template with 3 rows and columns,
+each box targeted individually to hear a click when click happens X or O appears depending on players turn.
+3 similair X/O in each row/column and we have a winner.
 
-## Cool tech used
+## Tech used
 
-i was inspired by God of War game which i recently just finished i used a wallpaper from the game , main soundtrack of the game and usued similair fonts that were used in the game
+<ul>
+ <li>Html</li>
+ <li>Javascript</li>
+ <li>Css</li>
+ <li>Dom manipulation</li>
+ 
 
 ## Lessons you learnt
 learnt the importance of planning , basically how to make the game from scratch 
