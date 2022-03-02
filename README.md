@@ -1,10 +1,18 @@
+
+# Tic Tac Toe
  
- # Tic Tac Toe
- 
- god of war video game inpired Tic Tac Toe game.
+god of war video game inpired Tic Tac Toe game with following functions:
+ <ul>
+  <li>ability to switch turns for more than one player</li>
+  <li>Design logic for winning</li>
+  <li>visually display winner</li>
+  <li>display draw when there's no winner</li>
+  <li>being able to reset the game after each round</li>
+  <li>record each player's score on scoreboard</li>
+  <li>god of war video game theme and soundtrack</li>
  
  ## [Play it here ](https://pouryaace.github.io/TicTacToe/)
-
+god of war video game inpired Tic Tac Toe game.
 
 tic tac toe is a game that plays between two players theres total of nine boxes and each player get to pick a box , when a player have 3 boxes in a row 
 they win.
