@@ -10,7 +10,7 @@ god of war video game inpired Tic Tac Toe game with following functions:
   <li>being able to reset the game after each round</li>
   <li>record each player's score on scoreboard</li>
   <li>god of war video game theme and soundtrack</li>
- 
+</ul> 
 ## Game instructions
 
 tic tac toe is a game that played between two players theres total of nine boxes and each player get to pick a box , when a player have 3 boxes in a row 
@@ -32,6 +32,7 @@ main logic is built by javascript and dom manipulation.
  <li>Javascript</li>
  <li>Css</li>
  <li>DOM manipulation</li>
+</ul>
  
 ## Lessons learnt
 learnt the importance of planning , basically how to make the game from scratch 
