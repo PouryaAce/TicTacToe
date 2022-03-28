@@ -1,7 +1,7 @@
 
 # Tic Tac Toe [Play it here ](https://pouryaace.github.io/TicTacToe/)
  
-god of war video game inpired Tic Tac Toe game with following functions:
+god of war video game inspired Tic Tac Toe game with following functions:
  <ul>
   <li>ability to switch turns for more than one player</li>
   <li>Design logic for winning</li>
